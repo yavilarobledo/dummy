@@ -5,6 +5,6 @@ def read_corpus(file_path):
         corpus_text = file.read()
     return corpus_text
 
-def count_word_occurrences(corpus, token):
-    words = corpus.split()
-    return words.count(token)
+def count_word_occurrences(corpus_text, token):
+    words = corpus_text.lower().count(token.lower())
+    return words
