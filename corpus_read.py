@@ -1,5 +1,5 @@
 file_path='/content/corpus.txt'
-token='school'
+token='School'
 def read_corpus(file_path):
     with open(file_path, 'r') as file:
         corpus_text = file.read()
